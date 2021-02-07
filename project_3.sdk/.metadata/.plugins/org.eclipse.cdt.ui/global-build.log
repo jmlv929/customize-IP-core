@@ -1,0 +1,407 @@
+14:59:48 **** Build of project cus_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/breath_led_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/breath_led_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/breath_led_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/breath_led_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling breath_led..."
+breath_led_selftest.c: In function 'BREATH_LED_Reg_SelfTest':
+breath_led_selftest.c:38:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  baseaddr = (u32) baseaddr_p;
+             ^
+breath_led_selftest.c:52:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( BREATH_LED_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                           ^~
+breath_led_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling clockps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_0/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling pciepsu"
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:52:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:59:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src"
+D:/Xilinx2018p3/SDK/2018.3/gnuwin/bin/make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+
+**** Build of configuration Debug for project cus ****
+
+Nothing to build for project cus
+15:01:21 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/xilinx2018p3/sdk/2018.3/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/crt0.o: In function `_start':
+/proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-linux/snapshots/newlib-newlib-2_4_0/libgloss/aarch64/crt0.S:219: undefined reference to `main'
+../../cus_bsp/psu_cortexa53_0/lib\libxil.a(xil-crt0.o): In function `_startup':
+E:\test\project_3\project_3.sdk\cus_bsp\psu_cortexa53_0\libsrc\standalone_v6_8\src/xil-crt0.S:129: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: cus.elf] Error 1
+15:02:45 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+../src/a.c:12:10: fatal error: breath_led_ip.h: No such file or directory
+ #include "breath_led_ip.h"
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/a.o] Error 1
+15:03:12 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+../src/a.c: In function 'main':
+../src/a.c:28:1: warning: implicit declaration of function 'BREATH_LED_IP_mWriteReg'; did you mean 'BREATH_LED_mWriteReg'? [-Wimplicit-function-declaration]
+ BREATH_LED_IP_mWriteReg(LED_IP_BASEADDR,LED_IP_REG1,0x800000ef);
+ ^~~~~~~~~~~~~~~~~~~~~~~
+ BREATH_LED_mWriteReg
+../src/a.c:15:25: error: 'XPAR_BREATH_LED_IP_0_S0_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_BREATH_LED_0_S02_AXI_BASEADDR'?
+ #define LED_IP_BASEADDR XPAR_BREATH_LED_IP_0_S0_AXI_BASEADDR //LED IP »ùµØÖ·
+                         ^
+../src/a.c:15:25: note: in definition of macro 'LED_IP_BASEADDR'
+ #define LED_IP_BASEADDR XPAR_BREATH_LED_IP_0_S0_AXI_BASEADDR //LED IP »ùµØÖ·
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/a.c:15:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define LED_IP_BASEADDR XPAR_BREATH_LED_IP_0_S0_AXI_BASEADDR //LED IP »ùµØÖ·
+                         ^
+../src/a.c:15:25: note: in definition of macro 'LED_IP_BASEADDR'
+ #define LED_IP_BASEADDR XPAR_BREATH_LED_IP_0_S0_AXI_BASEADDR //LED IP »ùµØÖ·
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/a.c:17:21: error: 'BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'BREATH_LED_S02_AXI_SLV_REG1_OFFSET'?
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^
+../src/a.c:17:21: note: in definition of macro 'LED_IP_REG1'
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/a.c:35:13: warning: implicit declaration of function 'BREATH_LED_IP_mReadReg'; did you mean 'BREATH_LED_mReadReg'? [-Wimplicit-function-declaration]
+ led_state = BREATH_LED_IP_mReadReg(LED_IP_BASEADDR,LED_IP_REG0);
+             ^~~~~~~~~~~~~~~~~~~~~~
+             BREATH_LED_mReadReg
+../src/a.c:16:21: error: 'BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET'?
+ #define LED_IP_REG0 BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·0
+                     ^
+../src/a.c:16:21: note: in definition of macro 'LED_IP_REG0'
+ #define LED_IP_REG0 BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·0
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/a.o] Error 1
+15:05:25 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+../src/a.c: In function 'main':
+../src/a.c:29:1: warning: implicit declaration of function 'BREATH_LED_IP_mWriteReg'; did you mean 'BREATH_LED_mWriteReg'? [-Wimplicit-function-declaration]
+ BREATH_LED_IP_mWriteReg(LED_IP_BASEADDR,LED_IP_REG1,0x800000ef);
+ ^~~~~~~~~~~~~~~~~~~~~~~
+ BREATH_LED_mWriteReg
+../src/a.c:18:21: error: 'BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'BREATH_LED_S02_AXI_SLV_REG1_OFFSET'?
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^
+../src/a.c:18:21: note: in definition of macro 'LED_IP_REG1'
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/a.c:18:21: note: each undeclared identifier is reported only once for each function it appears in
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^
+../src/a.c:18:21: note: in definition of macro 'LED_IP_REG1'
+ #define LED_IP_REG1 BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·1
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/a.c:36:13: warning: implicit declaration of function 'BREATH_LED_IP_mReadReg'; did you mean 'BREATH_LED_mReadReg'? [-Wimplicit-function-declaration]
+ led_state = BREATH_LED_IP_mReadReg(LED_IP_BASEADDR,LED_IP_REG0);
+             ^~~~~~~~~~~~~~~~~~~~~~
+             BREATH_LED_mReadReg
+../src/a.c:17:21: error: 'BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'BREATH_LED_IP_S0_AXI_SLV_REG1_OFFSET'?
+ #define LED_IP_REG0 BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·0
+                     ^
+../src/a.c:17:21: note: in definition of macro 'LED_IP_REG0'
+ #define LED_IP_REG0 BREATH_LED_IP_S0_AXI_SLV_REG0_OFFSET //LED IP ¼Ä´æÆ÷µØÖ·0
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/a.o] Error 1
+15:06:21 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+../src/a.c: In function 'main':
+../src/a.c:29:1: warning: implicit declaration of function 'BREATH_LED_IP_mWriteReg'; did you mean 'BREATH_LED_mWriteReg'? [-Wimplicit-function-declaration]
+ BREATH_LED_IP_mWriteReg(LED_IP_BASEADDR,LED_IP_REG1,0x800000ef);
+ ^~~~~~~~~~~~~~~~~~~~~~~
+ BREATH_LED_mWriteReg
+../src/a.c:36:13: warning: implicit declaration of function 'BREATH_LED_IP_mReadReg'; did you mean 'BREATH_LED_mReadReg'? [-Wimplicit-function-declaration]
+ led_state = BREATH_LED_IP_mReadReg(LED_IP_BASEADDR,LED_IP_REG0);
+             ^~~~~~~~~~~~~~~~~~~~~~
+             BREATH_LED_mReadReg
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/a.o: In function `main':
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:29: undefined reference to `BREATH_LED_IP_mWriteReg'
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:33: undefined reference to `BREATH_LED_IP_mWriteReg'
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:36: undefined reference to `BREATH_LED_IP_mReadReg'
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:39: undefined reference to `BREATH_LED_IP_mWriteReg'
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:44: undefined reference to `BREATH_LED_IP_mReadReg'
+E:\test\project_3\project_3.sdk\cus\Debug/../src/a.c:47: undefined reference to `BREATH_LED_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: cus.elf] Error 1
+15:07:19 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: cus.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size cus.elf  |tee "cus.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33572	   2352	  20680	  56604	   dd1c	cus.elf
+Finished building: cus.elf.size
+ 
+15:14:35 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: cus.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size cus.elf  |tee "cus.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33572	   2352	  20680	  56604	   dd1c	cus.elf
+Finished building: cus.elf.size
+ 
+15:16:11 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:18:52 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: cus.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size cus.elf  |tee "cus.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33572	   2352	  20680	  56604	   dd1c	cus.elf
+Finished building: cus.elf.size
+ 
+15:18:53 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:04 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: cus.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size cus.elf  |tee "cus.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33572	   2352	  20680	  56604	   dd1c	cus.elf
+Finished building: cus.elf.size
+ 
+15:19:06 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:21 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:03 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:10 **** Auto Build of configuration Debug for project cus ****
+make all 
+Building file: ../src/a.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/a.o" -I../../cus_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/a.d" -MT"src/a.o" -o "src/a.o" "../src/a.c"
+Finished building: ../src/a.c
+ 
+Building target: cus.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../cus_bsp/psu_cortexa53_0/lib -o "cus.elf"  ./src/a.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: cus.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size cus.elf  |tee "cus.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33572	   2352	  20680	  56604	   dd1c	cus.elf
+Finished building: cus.elf.size
+ 
+15:21:12 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.
+15:21:27 **** Incremental Build of configuration Debug for project cus ****
+make all 
+make: Nothing to be done for 'all'.

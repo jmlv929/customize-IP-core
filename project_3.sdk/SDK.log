@@ -1,0 +1,215 @@
+14:58:34 INFO  : Registering command handlers for SDK TCF services
+14:58:34 INFO  : Launching XSCT server: xsct.bat -interactive E:\test\project_3\project_3.sdk\temp_xsdb_launch_script.tcl
+14:58:36 INFO  : XSCT server has started successfully.
+14:58:36 INFO  : Successfully done setting XSCT server connection channel  
+14:58:36 INFO  : Successfully done setting SDK workspace  
+14:58:36 INFO  : Processing command line option -hwspec E:/test/project_3/project_3.sdk/design_1_wrapper.hdf.
+15:16:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:14 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A7A2BE' is selected.
+15:16:14 INFO  : 'jtag frequency' command is executed.
+15:16:14 INFO  : Sourcing of 'D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:16:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0' command is executed.
+15:16:30 INFO  : FPGA configured successfully with bitstream "E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:16:30 INFO  : Context for 'APU' is selected.
+15:16:30 INFO  : Hardware design information is loaded from 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+15:16:30 INFO  : 'configparams force-mem-access 1' command is executed.
+15:16:30 INFO  : Context for 'APU' is selected.
+15:16:30 INFO  : Sourcing of 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:16:31 INFO  : 'psu_init' command is executed.
+15:16:32 INFO  : 'after 1000' command is executed.
+15:16:32 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:16:33 INFO  : 'after 1000' command is executed.
+15:16:33 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:16:33 INFO  : 'catch {psu_protection}' command is executed.
+15:16:33 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:16:33 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:16:34 INFO  : The application 'E:/test/project_3/project_3.sdk/cus/Debug/cus.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:16:34 INFO  : 'configparams force-mem-access 0' command is executed.
+15:16:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0
+fpga -file E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+loadhw -hw E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+source E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -processor
+dow E:/test/project_3/project_3.sdk/cus/Debug/cus.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:16:34 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:16:34 INFO  : 'con' command is executed.
+15:16:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+con
+----------------End of Script----------------
+
+15:16:34 INFO  : Launch script is exported to file 'E:\test\project_3\project_3.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_cus.elf_on_local.tcl'
+15:19:22 INFO  : Disconnected from the channel tcfchan#1.
+15:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:29 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A7A2BE' is selected.
+15:19:29 INFO  : 'jtag frequency' command is executed.
+15:19:29 INFO  : Sourcing of 'D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:19:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0' command is executed.
+15:19:44 INFO  : FPGA configured successfully with bitstream "E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:19:44 INFO  : Context for 'APU' is selected.
+15:19:45 INFO  : Hardware design information is loaded from 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+15:19:45 INFO  : 'configparams force-mem-access 1' command is executed.
+15:19:45 INFO  : Context for 'APU' is selected.
+15:19:45 INFO  : Sourcing of 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:19:46 INFO  : 'psu_init' command is executed.
+15:19:47 INFO  : 'after 1000' command is executed.
+15:19:47 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:19:48 INFO  : 'after 1000' command is executed.
+15:19:48 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:19:48 INFO  : 'catch {psu_protection}' command is executed.
+15:19:48 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:19:48 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:19:49 ERROR : Memory write error at 0x0. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout
+15:19:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0
+fpga -file E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+loadhw -hw E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+source E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -processor
+dow E:/test/project_3/project_3.sdk/cus/Debug/cus.elf
+----------------End of Script----------------
+
+15:20:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:03 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A7A2BE' is selected.
+15:20:03 INFO  : 'jtag frequency' command is executed.
+15:20:03 INFO  : Sourcing of 'D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:20:03 INFO  : Context for 'APU' is selected.
+15:20:04 INFO  : System reset is completed.
+15:20:07 INFO  : 'after 3000' command is executed.
+15:20:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0' command is executed.
+15:20:23 INFO  : FPGA configured successfully with bitstream "E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:20:23 INFO  : Context for 'APU' is selected.
+15:20:23 INFO  : Hardware design information is loaded from 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+15:20:23 INFO  : 'configparams force-mem-access 1' command is executed.
+15:20:23 INFO  : Context for 'APU' is selected.
+15:20:23 INFO  : Sourcing of 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:20:24 INFO  : 'psu_init' command is executed.
+15:20:25 INFO  : 'after 1000' command is executed.
+15:20:25 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:20:26 INFO  : 'after 1000' command is executed.
+15:20:26 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:20:26 INFO  : 'catch {psu_protection}' command is executed.
+15:20:26 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:20:26 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:20:26 INFO  : The application 'E:/test/project_3/project_3.sdk/cus/Debug/cus.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:20:26 INFO  : 'configparams force-mem-access 0' command is executed.
+15:20:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0
+fpga -file E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+loadhw -hw E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+source E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -processor
+dow E:/test/project_3/project_3.sdk/cus/Debug/cus.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:20:26 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:20:27 INFO  : 'con' command is executed.
+15:20:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+con
+----------------End of Script----------------
+
+15:20:27 INFO  : Launch script is exported to file 'E:\test\project_3\project_3.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_cus.elf_on_local.tcl'
+15:21:28 INFO  : Disconnected from the channel tcfchan#2.
+15:21:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:35 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A7A2BE' is selected.
+15:21:35 INFO  : 'jtag frequency' command is executed.
+15:21:35 INFO  : Sourcing of 'D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:21:35 INFO  : Context for 'APU' is selected.
+15:21:36 INFO  : System reset is completed.
+15:21:39 INFO  : 'after 3000' command is executed.
+15:21:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0' command is executed.
+15:21:54 INFO  : FPGA configured successfully with bitstream "E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:21:54 INFO  : Context for 'APU' is selected.
+15:21:54 INFO  : Hardware design information is loaded from 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+15:21:54 INFO  : 'configparams force-mem-access 1' command is executed.
+15:21:54 INFO  : Context for 'APU' is selected.
+15:21:54 INFO  : Sourcing of 'E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:21:55 INFO  : 'psu_init' command is executed.
+15:21:56 INFO  : 'after 1000' command is executed.
+15:21:56 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:21:57 INFO  : 'after 1000' command is executed.
+15:21:57 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:21:57 INFO  : 'catch {psu_protection}' command is executed.
+15:21:57 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:21:58 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:21:58 INFO  : The application 'E:/test/project_3/project_3.sdk/cus/Debug/cus.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:21:58 INFO  : 'configparams force-mem-access 0' command is executed.
+15:21:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/Xilinx2018p3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE" && level==0} -index 0
+fpga -file E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+loadhw -hw E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+source E:/test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+rst -processor
+dow E:/test/project_3/project_3.sdk/cus/Debug/cus.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:21:58 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:21:58 INFO  : 'con' command is executed.
+15:21:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A2BE"} -index 1
+con
+----------------End of Script----------------
+
+15:21:58 INFO  : Launch script is exported to file 'E:\test\project_3\project_3.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_cus.elf_on_local.tcl'
+15:22:54 INFO  : Disconnected from the channel tcfchan#3.
